@@ -6,6 +6,7 @@
     <meta name="author" content="Luis Alberto Ibarra Espinoza" />
     <meta name="email" content="aespinoza@uadec.edu.mx" />
     <title>Luis Ibarra's Page</title>
+    <link type="text/css" rel="stylesheet" href="css/styles.css" />
 </head>
 
 <body>
@@ -40,7 +41,7 @@
         </p>
     </b>
     <h3>Objetivos para este proyecto</h3>
-    <ul>
+    <ul class="ul">
         <li>Aprobar la materia de Ingenieria de Software</li>
         <li>Aprender a manejar HTML</li>
         <li>Sembrar las bases para el proximo manejo de CSS</li>
@@ -60,78 +61,94 @@
     </ul>
     <hr>
     <h2 id="pics">Fotos</h2>
-    <img src="images/berthita2.jpg" alt="Mi foto favorita con Berthita"
-        title="Esta foto se tomo en su festejo de su cumplea;os" width="430" height="430">
-    <p>Bertha Nohemi y Luis Ibarra</p>
-    <form action="http://www.example.com/login.php">
-        <p>Reacciona!</p>
-        <select name="reacts" id="">
-            <option value="null">--------</option>
-            <option value="like">Me gusta</option>
-            <option value="love">Me encanta</option>
-            <option value="fun">Me divierte</option>
-            <option value="sad">Me entristece</option>
-            <option value="surprise">Me asombra</option>
-            <option value="Angry">Me enoja</option>
-        </select>
-    </form><br>
-    <form action="http://www.example.com/comments">
-        <textarea name="comments" cols="35" rows="4">Escribe tu comentario...</textarea>
-    </form>
+    <div class="news">
+        <div class="publication">
+            <img src="images/berthita2.jpg" alt="Mi foto favorita con Berthita"
+                title="Esta foto se tomo en su festejo de su cumplea;os" width="430" height="430">
+            <br> Bertha Nohemi y Luis Ibarra
+        </div>
+        <form action="http://www.example.com/login.php">
+            <p>Reacciona!</p>
+            <select name="reacts" id="">
+                <option value="null">--------</option>
+                <option value="like">Me gusta</option>
+                <option value="love">Me encanta</option>
+                <option value="fun">Me divierte</option>
+                <option value="sad">Me entristece</option>
+                <option value="surprise">Me asombra</option>
+                <option value="Angry">Me enoja</option>
+            </select>
+        </form><br>
+        <form action="http://www.example.com/comments">
+            <textarea name="comments" cols="35" rows="4">Escribe tu comentario...</textarea>
+        </form>
+    </div>
     <hr>
-    <img src="images/berthitha1.jpg" alt="Foto 2" title="Navidad 2019" width="520" height="750">
-    <br> FELIZ NAVIDAD!
-    <form action="http://www.example.com/login.php">
-        <p>Reacciona!</p>
-        <select name="reacts" id="">
-            <option value="null">--------</option>
-            <option value="like">Me gusta</option>
-            <option value="love">Me encanta</option>
-            <option value="fun">Me divierte</option>
-            <option value="sad">Me entristece</option>
-            <option value="surprise">Me asombra</option>
-            <option value="Angry">Me enoja</option>
-        </select>
-    </form><br>
-    <form action="http://www.example.com/comments">
-        <textarea name="comments" cols="35" rows="4">Escribe tu comentario...</textarea>
-    </form>
+    <div class="news">
+        <div class="publication">
+            <img src="images/berthitha1.jpg" alt="Foto 2" title="Navidad 2019" width="520" height="750">
+            <br> FELIZ NAVIDAD!
+        </div>
+        <form action="http://www.example.com/login.php">
+            <p>Reacciona!</p>
+            <select name="reacts" id="">
+                <option value="null">--------</option>
+                <option value="like">Me gusta</option>
+                <option value="love">Me encanta</option>
+                <option value="fun">Me divierte</option>
+                <option value="sad">Me entristece</option>
+                <option value="surprise">Me asombra</option>
+                <option value="Angry">Me enoja</option>
+            </select>
+        </form><br>
+        <form action="http://www.example.com/comments">
+            <textarea name="comments" cols="35" rows="4">Escribe tu comentario...</textarea>
+        </form>
+    </div>
     <hr>
-    <img src="images/compis1.JPG" alt="Compadres" title="Con los panas" width="520" height="750">
-    <br> Aqui con los compadritos
-    <form action="http://www.example.com/login.php">
-        <p>Reacciona!</p>
-        <select name="reacts" id="">
-            <option value="null">--------</option>
-            <option value="like">Me gusta</option>
-            <option value="love">Me encanta</option>
-            <option value="fun">Me divierte</option>
-            <option value="sad">Me entristece</option>
-            <option value="surprise">Me asombra</option>
-            <option value="Angry">Me enoja</option>
-        </select>
-    </form><br>
-    <form action="http://www.example.com/comments">
-        <textarea name="comments" cols="35" rows="4">Escribe tu comentario...</textarea>
-    </form>
+    <div class="news">
+        <div class="publication">
+            <img src="images/compis1.JPG" alt="Compadres" title="Con los panas" width="520" height="750">
+            <br> Aqui con los compadritos
+        </div>
+        <form action="http://www.example.com/login.php">
+            <p>Reacciona!</p>
+            <select name="reacts" id="">
+                <option value="null">--------</option>
+                <option value="like">Me gusta</option>
+                <option value="love">Me encanta</option>
+                <option value="fun">Me divierte</option>
+                <option value="sad">Me entristece</option>
+                <option value="surprise">Me asombra</option>
+                <option value="Angry">Me enoja</option>
+            </select>
+        </form><br>
+        <form action="http://www.example.com/comments">
+            <textarea name="comments" cols="35" rows="4">Escribe tu comentario...</textarea>
+        </form>
+    </div>
     <hr>
-    <img src="images/compis2.jpg" alt="Compadres2" title="Mas amigos" width="520" height="750">
-    <br> Mas amikos jsjs
-    <form action="http://www.example.com/login.php">
-        <p>Reacciona!</p>
-        <select name="reacts" id="">
-            <option value="null">--------</option>
-            <option value="like">Me gusta</option>
-            <option value="love">Me encanta</option>
-            <option value="fun">Me divierte</option>
-            <option value="sad">Me entristece</option>
-            <option value="surprise">Me asombra</option>
-            <option value="Angry">Me enoja</option>
-        </select>
-    </form><br>
-    <form action="http://www.example.com/comments">
-        <textarea name="comments" cols="35" rows="4">Escribe tu comentario...</textarea>
-    </form>
+    <div class="news">
+        <div class="publication">
+            <img src="images/compis2.jpg" alt="Compadres2" title="Mas amigos" width="520" height="750">
+            <br> Mas amikos jsjs
+        </div>
+        <form action="http://www.example.com/login.php">
+            <p>Reacciona!</p>
+            <select name="reacts" id="">
+                <option value="null">--------</option>
+                <option value="like">Me gusta</option>
+                <option value="love">Me encanta</option>
+                <option value="fun">Me divierte</option>
+                <option value="sad">Me entristece</option>
+                <option value="surprise">Me asombra</option>
+                <option value="Angry">Me enoja</option>
+            </select>
+        </form><br>
+        <form action="http://www.example.com/comments">
+            <textarea name="comments" cols="35" rows="4">Escribe tu comentario...</textarea>
+        </form>
+    </div>
     <hr>
     <p><a href="#top"> Ir al principio</p></a>
 </body>
