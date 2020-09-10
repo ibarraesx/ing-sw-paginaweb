@@ -1,14 +1,29 @@
 body {
   font-family: arial;
-  background-color: hsl(189, 90%, 41%);
+  background-color: #2d98da;
 }
 h1 {
-  color: rgb(255, 0, 221);
-  background-color: hsla(0, 100%, 100%, 0.5);
+  padding: 10px;
+  background-color: #2f3542;
+  color: aliceblue;
+  border: 4px solid #cccccc;
+  font-size: 32px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  margin-top: 8px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
 }
 p {
-  background-color: palevioletred;
-  background-color: rgba(27, 8, 194, 0.5);
+
+}
+.left{
+  float: left;
+  margin-top: -20px;
+}
+.perfil div{
   border: 5px solid #cccccc;
   padding: 20px;
   width: 275px;
@@ -16,23 +31,47 @@ p {
   border-radius: 10px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
+  margin: auto;
+  margin-bottom: 15px;
+  text-align: center;
+  background-color: white;
+
 }
-
-ul.ul {
-  background-color: hsl(0, 0%, 0%);
-  font-weight: bold;
-  color: aliceblue;
+.signin{
+  margin-top: 20px;
+  margin-left: 50px;
+  background-color: #f1f2f6;
   border: 5px solid #cccccc;
-  padding: 25px;
-  width: 275px;
-  text-align: left;
-
+  padding: 20px;
+  width: 333px;
+  text-align: center;
   border-radius: 10px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
 }
+.perfil {
+  margin-top: 20px;
+  margin-left: 50px;
+  background-color: #f1f2f6;
+  border: 5px solid #cccccc;
+  padding: 20px;
+  width: 333px;
+  text-align: center;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+}
 div.news {
-  background-color: hsl(0, 0%, 0%);
+  margin: auto;
+  background-color: #f1f2f6;
   font-weight: bold;
   color: aliceblue;
   border: 5px solid #cccccc;
@@ -54,4 +93,48 @@ div.publication {
   border-radius: 10px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
+  margin: auto;
 }
+.action {
+  margin-left: 3cm;
+}
+
+.main { 
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.perfil h2 {
+  padding: 10px;
+  background-color: #2f3542;
+  color: aliceblue;
+  border: 4px solid #cccccc;
+  font-size: 32px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  margin-top: 8px;
+}
+
+.perfil h3 {
+  padding: 10px;
+  font-size: 21px;
+  margin-top: 8px;
+}
+.right {
+  float: right;
+  margin-top: 20px;
+  margin-right: 50px;
+  background-color: #f1f2f6;
+  border: 5px solid #cccccc;
+  padding: 20px;
+  width: 333px;
+  text-align: left;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+.right h3 {
+  font-size: 21px;
+}
+
